@@ -5,9 +5,13 @@
      --dkest-color:#584a8e;
      --accent:#224c60;
 }
-@font-face {
+/*@font-face {
   font-family:Minecraft;
   src:url('/resources/Minecraft-Seven_v2.woff2') format('woff2');
+}*/
+@font-face {
+  font-family: "Minecraft";
+  src: url("esources/Minecraft-Seven_v2.woff2") format("woff"),
 }
  html, body {
      margin:0;
