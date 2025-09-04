@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html>
+   <head>
+      <meta charset="UTF-8">
+      <meta name="viewport" content="width=device-width, initial-scale=1.0">
+      <title>inevitablegoose!</title>
+      <link href="/style.css" rel="stylesheet">
+      <script src="/html_loader.js"></script>
+    </head>
+   <body class="scroll">
+      <div id="container">
+         <div id="header" style="text-align: center;">
+            <img src="/images/logo/inevitablegoose.gif" alt="inevitablegoose">
+         </div>
+         <div id="linklist"></div>
+         <div class="wrapper">
+            <div id="social"></div>
+            <div class="main-content">
+               <div class="section-title">Welcome to inevitablegoose's page!</div>
+               <div class="content">
+                  <img id="randomImage" alt="Randomly displayed image" style="max-width: 100%; margin:0 auto;">
+                  <script>
+        // Array of image filenames
+        const images = ["azertykeychain.png", "azertyshowoff.jpg", "azertytalking.gif", "virgilfursuit.jpg", "virgilkeychain.png"]; // Add your actual filenames here
+
+        // Choose a random image
+        const randomIndex = Math.floor(Math.random() * images.length);
+        const randomImage = "/images/randomgen/" + images[randomIndex]; // Folder path
+
+        // Set the image source
+        document.getElementById("randomImage").src = randomImage;
+                  </script>
+               </div>
+            </div>
+          </div>
+      </div>
+      <div id="footer">
+         <p>© Layout by <a href="https://neothemes.neocities.org/" target="_blank">NeoThemes</a></p>
+      </div>
+   </body>
+</html>
