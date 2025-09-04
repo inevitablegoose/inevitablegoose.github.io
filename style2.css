@@ -7,7 +7,7 @@
 }
 @font-face {
   font-family:Minecraft;
-  src:url('https://inevitablegoose.github.io/resources/Minecraft-Seven_v2.woff2');
+  src:url('/resources/Minecraft-Seven_v2.woff2');
 }
  html, body {
      margin:0;
