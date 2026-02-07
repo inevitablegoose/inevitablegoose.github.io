@@ -10,6 +10,7 @@
 const html_templates = {
   "linklist": "/resources/header.html",
   "social": "/resources/social.html",
+  "footer":"/resources/footer.html"
 };
 
 ///
