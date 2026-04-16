@@ -43,4 +43,14 @@ Object.keys(html_templates).map(function (element) {
     });
 });
 
+// Mobile nav toggle (delegated so it works after header is loaded)
+document.addEventListener('click', function (e) {
+  const toggle = e.target.closest('.nav-toggle');
+  if (!toggle) return;
+  const nav = toggle.closest('.navbar');
+  if (!nav) return;
+  const isOpen = nav.classList.toggle('open');
+  toggle.setAttribute('aria-expanded', String(isOpen));
+});
+
 }());
