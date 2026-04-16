@@ -1,24 +1,36 @@
-<div class="navbar">
-            <ul>
-               <li><a href="/">Home</a></li>
-               <li>
-                  <a href="#">About Me</a>
-                  <ul class="subitems">
-                     <li><a href="/about_me">Bio</a></li>
-                     <li><a href="/about_me/cons">Conventions</a></li>
-                  </ul>
-               <li>
-                  <a href="#">Fursuits</a>
-                  <ul class="subitems">
-                     <li><a href="/fursuits">About My Suits</a></li>
-                     <li><a href="/fursuits/commissions">Commission Info</a></li>
-                     <li><a href="https://trello.com/b/or3T2GEg/inevitablegoose-fursuits">Queue</a></li>
-                  </ul>
-               <li>
-                  <a href="#">Guides and Resources</a>
-                  <ul class="subitems">
-                     <li><a href="/guides">My Guides</a></li>
-                     <li><a href="/guides/others.html">Other People's Resources</a></li>
-                  </ul>
-            </ul>
-         </div>
+<nav class="navbar" aria-label="Main">
+  <button
+    type="button"
+    class="nav-toggle"
+    aria-expanded="false"
+    aria-controls="primary-nav"
+  >
+    <span class="nav-toggle-bars" aria-hidden="true"></span>
+    <span class="nav-toggle-label">Menu</span>
+  </button>
+  <ul id="primary-nav">
+    <li><a href="/">Home</a></li>
+    <li>
+      <a href="#" aria-haspopup="true">About Me</a>
+      <ul class="subitems">
+        <li><a href="/about_me">Bio</a></li>
+        <li><a href="/about_me/cons">Conventions</a></li>
+      </ul>
+    </li>
+    <li>
+      <a href="#" aria-haspopup="true">Fursuits</a>
+      <ul class="subitems">
+        <li><a href="/fursuits">About My Suits</a></li>
+        <li><a href="/fursuits/commissions">Commission Info</a></li>
+        <li><a href="https://trello.com/b/or3T2GEg/inevitablegoose-fursuits">Queue</a></li>
+      </ul>
+    </li>
+    <li>
+      <a href="#" aria-haspopup="true">Guides and Resources</a>
+      <ul class="subitems">
+        <li><a href="/guides">My Guides</a></li>
+        <li><a href="/guides/others.html">Other People's Resources</a></li>
+      </ul>
+    </li>
+  </ul>
+</nav>
