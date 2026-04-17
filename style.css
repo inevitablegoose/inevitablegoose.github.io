@@ -252,12 +252,12 @@ h2, h4, h6 { color: var(--accent); margin: 0 0 10px; }
 }
 
 #left-sidebar {
-  flex: 0 1 260px;
+  flex: 1 1 40%;
   min-width: 0;
 }
 
 .main-content {
-  flex: 1 1 420px;
+  flex: 1 1 60%;
   min-width: 0;
 }
 
