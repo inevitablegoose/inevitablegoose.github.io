@@ -241,17 +241,9 @@ h2, h4, h6 { color: var(--accent); margin: 0 0 10px; }
   align-items: flex-start;
 }
 
-#left-sidebar,
-.main-content,
-.main-content-wide {
-  background-color: var(--lt-color);
-  border: var(--border);
-  border-radius: var(--radius);
-  box-shadow: var(--shadow);
-  overflow: hidden;
-}
-
-#left-sidebar {
+/* #social is the flex child (placeholder that html_loader.js fills
+   with social.html, which contains #left-sidebar inside). */
+#social {
   flex: 0 1 260px;
   min-width: 0;
 }
@@ -259,11 +251,31 @@ h2, h4, h6 { color: var(--accent); margin: 0 0 10px; }
 .main-content {
   flex: 1 1 420px;
   min-width: 0;
+  background-color: var(--lt-color);
+  border: var(--border);
+  border-radius: var(--radius);
+  box-shadow: var(--shadow);
+  overflow: hidden;
 }
 
 .main-content-wide {
   flex: 1 1 100%;
   min-width: 0;
+  background-color: var(--lt-color);
+  border: var(--border);
+  border-radius: var(--radius);
+  box-shadow: var(--shadow);
+  overflow: hidden;
+}
+
+/* Sidebar inner card — fills its #social slot */
+#left-sidebar {
+  width: 100%;
+  background-color: var(--lt-color);
+  border: var(--border);
+  border-radius: var(--radius);
+  box-shadow: var(--shadow);
+  overflow: hidden;
 }
 
 .section-title {
@@ -526,7 +538,7 @@ textarea {
   /* Stack layout */
   .wrapper { flex-direction: column; }
 
-  #left-sidebar,
+  #social,
   .main-content,
   .main-content-wide {
     flex: 1 1 100%;
