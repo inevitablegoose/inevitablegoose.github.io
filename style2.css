@@ -245,6 +245,8 @@ h2, h4, h6 { color: var(--accent); margin: 0 0 10px; }
    with social.html, which contains #left-sidebar inside). */
 #social {
   flex: 0 1 260px;
+}
+
 #left-sidebar,
 .main-content,
 .main-content-wide {
@@ -257,38 +259,15 @@ h2, h4, h6 { color: var(--accent); margin: 0 0 10px; }
 
 #left-sidebar {
   flex: 1 1 40%;
+  width: 100%;
   min-width: 0;
 }
 
 .main-content {
   flex: 1 1 60%;
   min-width: 0;
-  background-color: var(--lt-color);
-  border: var(--border);
-  border-radius: var(--radius);
-  box-shadow: var(--shadow);
-  overflow: hidden;
 }
 
-.main-content-wide {
-  flex: 1 1 100%;
-  min-width: 0;
-  background-color: var(--lt-color);
-  border: var(--border);
-  border-radius: var(--radius);
-  box-shadow: var(--shadow);
-  overflow: hidden;
-}
-
-/* Sidebar inner card — fills its #social slot */
-#left-sidebar {
-  width: 100%;
-  background-color: var(--lt-color);
-  border: var(--border);
-  border-radius: var(--radius);
-  box-shadow: var(--shadow);
-  overflow: hidden;
-}
 .main-content-wide {
   flex: 1 1 100%;
   min-width: 0;
