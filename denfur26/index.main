@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html>
+   <head>
+      <meta charset="UTF-8">
+      <meta name="viewport" content="width=device-width, initial-scale=1.0">
+      <title>inevitablegoose!</title>
+      <link href="/style.css" rel="stylesheet">
+      <script src="/html_loader.js"></script>
+      <link rel="stylesheet" href="https://unpkg.com/photoviewer@3.6.2/dist/photoviewer.css">
+    </head>
+   <body class="scroll">
+      <div id="container">
+         <div id="header" style="text-align: center;">
+            <img src="/images/logo/inevitablegoose.gif" alt="inevitablegoose">
+         </div>
+         <div id="linklist"></div>
+         <div class="wrapper">
+            <div class="main-content-wide">
+               <div class="section-title">WIP give me a second</div>
+               <div class="content">
+               </div>
+            </div>
+            <div class="main-content-wide">
+               <div class="section-title">PLACEHOLDER</div>
+               <div class="content">
+                  <div class="ezgallery montage">
+                    <a href="/images/fursuits/IMG_20251203_170103 (5).jpg"><img src="/images/fursuits/IMG_20251203_170103 (5).jpg" alt="Donni Fursuit" width=300px></a>
+                    <a href="/images/fursuits/IMG_20251203_170104 (3).jpg"><img src="/images/fursuits/IMG_20251203_170104 (3).jpg" alt="Donni Fursuit" width=300px></a>
+                    <a href="/images/fursuits/IMG_20251203_170104 (10).jpg"><img src="/images/fursuits/IMG_20251203_170104 (10).jpg" alt="Donni Fursuit" width=300px></a>
+                    <a href="/images/fursuits/IMG_20251203_170104 (12).jpg"><img src="/images/fursuits/IMG_20251203_170104 (12).jpg" alt="Donni Fursuit" width=300px></a>
+                  </div>
+               </div>
+            </div>
+          </div>
+      </div>
+      <div id="footer"></div>
+      <script src="https://unpkg.com/photoviewer@3.6.2/dist/photoviewer.min.js"></script>
+      <script src="/gallery.js"></script>
+   </body>
+</html>
